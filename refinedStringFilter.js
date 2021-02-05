@@ -26,5 +26,5 @@ function reverseReverse (input) {
 }
 
 reverseReverse(testVariable);
-reverseReverse(testVar2);
-reverseReverse(testVar3);
+// WARNING! WILL KEEP ADDING CHARACTERS FOR EACH USE OF FUNCTION. SEE stringReverseTool.JS
+// FOR SELF-CLEARING METHOD
