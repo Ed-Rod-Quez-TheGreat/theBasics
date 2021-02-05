@@ -7,22 +7,29 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch refinedNumAverager",
+            "name": "Launch RefinedNumAverager",
             "program": "${workspaceFolder}\\refinedNumAverager.js",
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch roughNumAverager",
+            "name": "Launch RoughNumAverager",
             "program": "${workspaceFolder}\\roughNumAverager.js",
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch stringFilter",
+            "name": "Launch RoughStringReverse",
             "program": "${workspaceFolder}\\stringFilter.js",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch RefinedStringReverse",
+            "program": "${workspaceFolder}\\refinedStringFilter.js",
             "cwd": "${workspaceFolder}"
         },
         
