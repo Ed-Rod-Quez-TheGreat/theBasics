@@ -46,6 +46,13 @@
             "program": "${workspaceFolder}\\stringReverseTool.js",
             "cwd": "${workspaceFolder}"
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch roughFactoralTool",
+            "program": "${workspaceFolder}\\roughFactoralTool.js",
+            "cwd": "${workspaceFolder}"
+        },
         
     ]
 }
