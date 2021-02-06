@@ -20,10 +20,10 @@ function refinedAverager(input) {
         } 
     }
     
-
+    
     console.log(`the average is...${evenNumbs/averageDenom}`);
     return
-
+    //return part ends the function expressly, add it to farthest outwards part of function
 };
 
 refinedAverager(myNewArray);

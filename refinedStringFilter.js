@@ -4,7 +4,7 @@
 // create testVariable with a testString in it.
 // create a final variable to hold the reversed sequence
 //create a loop take each character "sequentially"
-//dump last character in the test variable into new variable and restart.
+//dump last character from the test variable into new variable and restart.
 // stop when finished with string.
 
 

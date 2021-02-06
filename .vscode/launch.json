@@ -53,6 +53,12 @@
             "program": "${workspaceFolder}\\roughFactoralTool.js",
             "cwd": "${workspaceFolder}"
         },
-        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch longestWordInString",
+            "program": "${workspaceFolder}\\longestWordInString.js",
+            "cwd": "${workspaceFolder}"
+        },
     ]
 }
