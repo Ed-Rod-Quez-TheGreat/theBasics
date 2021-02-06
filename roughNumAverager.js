@@ -1,37 +1,24 @@
-//Given array of integers, return the average value of all the odd numbers
+//be given an array of numbers
+let testArray = [8,2,7,9,4,8,8,1,900,327,999,1000]
+//find average of odd numbers only
+//make function that inputs an array
+//loop over values and only get odds
+//add all, divide by number of odds in array
 
-let mexican = "me"
-console.log(mexican);
-let caucasian = "long pantalones"
-console.log(caucasian);
+function findAverage (anArray) {
+  let numerator = 0;
+  let denominator = 0;
+  for (i=0; i < anArray.length; i++){
+    if (anArray[i] % 2 !== 0){
+      numerator += anArray[i];
+      denominator++;
+      console.log(numerator);
+      console.log(denominator);
+    }
 
-let testArray = [3, 27, 84, 91, 98, 36, 42];
-console.log(8 % 2);
-console.log(testArray[2]);
+  }
+  return `the average of odd numbers is ${numerator/denominator}`
+}
 
-let evens = 0;
-let odds = 0; 
-let averageEven = 0;
-let averageOdd = 0;
-let countEven = 0;
-let countOdd = 0;
-
-function numberDivider(intake) {
-    for (i=0; i<intake.length; i++) {
-        if(intake[i] % 2 === 0) {
-            evens += intake[i];
-            countEven += 1;
-            console.log(evens + "even catagory");
-        };
-        if(intake[i] % 2 !== 0) {
-            odds += Number(intake[i])
-            countOdd += 1;
-            console.log(odds + "odd category");
-        };
-    };
-    console.log(`${odds/countOdd} odd average`);
-    console.log(`${evens/countEven} even average`);
-};
-
-numberDivider(testArray);
+console.log(findAverage(testArray));
 

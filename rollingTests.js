@@ -1,4 +1,4 @@
-//create a function that filters a string's vowels out
+//create a function that filters a string vowels out
 let testingString = "the quick brown fox jumps over the lazy dog";
 //function inputs a string
 //for loops over values in string

@@ -67,5 +67,19 @@
             "program": "${workspaceFolder}\\biggestNumInArray.js",
             "cwd": "${workspaceFolder}"
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch biggestValFromMultiArrays",
+            "program": "${workspaceFolder}\\biggestValFromMultiArrays.js",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch RollingTests",
+            "program": "${workspaceFolder}\\rollingTests.js",
+            "cwd": "${workspaceFolder}"
+        },
     ]
 }
