@@ -60,5 +60,12 @@
             "program": "${workspaceFolder}\\longestWordInString.js",
             "cwd": "${workspaceFolder}"
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch biggestNumInArray",
+            "program": "${workspaceFolder}\\biggestNumInArray.js",
+            "cwd": "${workspaceFolder}"
+        },
     ]
 }
